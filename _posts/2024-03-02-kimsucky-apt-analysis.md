@@ -1,4 +1,9 @@
-
+---
+title: Kimsuky APT Analysis 1
+date: 2024-03-02 20:55:00 +0800
+categories: [Malware,APT,Kimsuky]
+tags: [Kimsuky]
+---
 ### Introduction
 
 [Kimsuky](https://apt.securelist.com/apt/kimsuky)  APT (also known as Thallium, Baby Coin, Smoke Screen) is a North Korean cyber-espionage actor involved in attacks targeting South Korean think tanks, Academia/Research , Government entities and Private companies since 2012. The group conducts cyber espionage operations to target government entities mainly in South Korea. Kimsuky like many other APTs deploys various methods of initial infection and today we are going to be looking into one of the sample which is using powershell to infect to the victim.

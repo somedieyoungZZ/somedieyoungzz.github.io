@@ -1,3 +1,9 @@
+---
+title: Zeus Banking Trojan Analysis
+date: 2024-03-06 20:55:00 +0800
+categories: [Malware,Zeus]
+tags: [Zeus]
+---
 ![Zeus Meme](https://i.ytimg.com/vi/JJ8qPWLbTOA/maxresdefault.jpg "Macro Enabling")
 
 ### Introduction
