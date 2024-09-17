@@ -3,7 +3,6 @@ title: Stego Campaign
 date: 2024-09-10 18:55:00 +0800
 categories: [Malware,DLL,.NET,Injection,Javascript,Dropper]
 tags: [.Net]
-pin: true
 ---
 
 ### Introduction
