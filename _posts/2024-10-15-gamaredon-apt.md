@@ -3,7 +3,6 @@ title: Gamaredon APT - Shortcut to Espionage
 date: 2024-10-15 18:55:00 +0800
 categories: [Malware, APT, Gamaredon, Powershell, LNK, Dropper]
 tags: [Gamaredon, Russia, APT, LNK, RAT, Powershell]
-pin: true
 ---
 
 
