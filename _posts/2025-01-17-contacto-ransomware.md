@@ -211,6 +211,23 @@ To understand more about this topic of encryption I'd suggest read [this](https:
 
 **If you go through the code you will find that instead of encrypting the entire file, the ransomware encrypts only parts of the file (header, footer, or random segments) to save time while still rendering files unusable even when the mode is full encryption(XD)**
 
+#### Wallpaper Change
+!["WP"](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*6ixpyYhBTQHxIK0Jucotvw.png "WP")
+
+&rarr; The function uses **`GetDeviceCaps()`	** to retrieve display parameters and dynamically creates a compatible bitmap using **`CreateCompatibleBitmap()`**
+
+&rarr; It writes the ransom note text ("Contacto Ransomware..." message) onto the bitmap using **`DrawTextW()`** and renders it with a custom Arial font created via **`CreateFontW()`**
+
+
+!["END"](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*Gd4tN6jQ520JXs_HpWPjqA.png "END")
+
+&rarr; In the end the malware deletes the scheduled task it created earlier and cleans up by self deleting and clearing all the logs again.
+
+!["NOTE"](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*s9kHUmHAVewe1BsIifNs8w.png "NOTE")
+*Ransom Note*
+!["WP"](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*VfFDIyx94sXHPtt-U1GMpQ.png "WP")
+*Changed Wallpaper*
+
 ### Encryption Process Overview
 
 1. **Dynamic Key Generation**  
