@@ -3,7 +3,6 @@ title: Contacto Ransomware Analysis
 date: 2025-1-15 18:55:00 +0800
 categories: [Malware, Ransomware, Cybersecurity]
 tags: [Contacto Ransomware, File Encryption, Self-Deletion, Cryptography, Threat Analysis, Malware Analysis]
-pin: true
 ---
 
 ### Introduction
