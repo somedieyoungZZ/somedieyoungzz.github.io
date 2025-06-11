@@ -1,5 +1,5 @@
 ---
-title: Tracing Silver Fox: The Winos 4.0 Campaign Behind Operation Holding Hands
+title: Tracing Silver Fox The Winos 4.0 Campaign Behind Operation Holding Hands
 date: 2025-06-10 18:55:00 +0800
 categories: [Malware,APT,China]
 tags: [SilverFox,C2,Winos]
