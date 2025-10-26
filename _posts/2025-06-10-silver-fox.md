@@ -134,7 +134,7 @@ for (i = 0; i < FileSize; i++)
 
 What makes this more elusive is the way the decrypted payload is **executed directly in memory** using `VirtualAlloc`, leaving minimal forensic artifacts behind. Combined with **API name obfuscation via config files**, **COM-based unzipping**, and fallback to **`ShellExecuteExA` for privilege escalation etc.**
 
-→ One of the IP associated with the C2 servers has many files referring to it and upon further hunting we find the sample is maybe associated with Winos 4.0 which mainly targets [Taiwan.](http://Taiwan.Im) In one of the samples we find that it’s targetting Japan as well with the regional language checking through registry keys.The Wt
+→ One of the IP associated with the C2 servers has many files referring to it and upon further hunting we find the sample is maybe associated with Winos 4.0 which mainly targets Taiwan.In one of the samples we find that it’s targetting Japan as well with the regional language checking through registry keys.The Wt
 
 ![](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*cu4EhPzWV7z8YIAUInNmGQ.png)
 
